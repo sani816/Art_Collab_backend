@@ -99,7 +99,7 @@ io.on("connection", (socket) => {
 });
 
 // HEALTH CHECK
-app.get("/", (req, res) => res.send("ArtCollab Workspace Server Running"));
+app.get("/https://art-collab-frontend-l9q2klntr-saniakhatun622-4253s-projects.vercel.app", (req, res) => res.send("ArtCollab Workspace Server Running"));
 
 // UPLOAD ROUTE
 app.use("/api/upload", uploadRoutes);
