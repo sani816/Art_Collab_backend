@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/backend/index.js"
+      "dest": "/Art_Collab_backend/index.js"
     }
   ]
 }
