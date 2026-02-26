@@ -99,7 +99,7 @@ io.on("connection", (socket) => {
 });
 
 // HEALTH CHECK
-app.get("api/", (req, res) => res.send("ArtCollab Workspace Server Running"));
+app.get("/", (req, res) => res.send("ArtCollab Workspace Server Running"));
 
 // UPLOAD ROUTE
 app.use("/api/upload", uploadRoutes);
